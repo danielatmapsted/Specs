@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-map'
     s.dependency 'mapsted-sdk-components'
     s.dependency 'mapsted-sdk-alerts'
+    s.dependency 'mapsted-sdk-loc-marketing'
     
     s.swift_version = '5.0'
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
