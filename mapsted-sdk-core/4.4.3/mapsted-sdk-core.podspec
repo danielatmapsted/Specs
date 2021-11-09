@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
 
     s.libraries = "z", "c++"
     
-    #s.dependency 'Alamofire'
-    #s.dependency 'Alamofire-Synchronous', '~> 4.0'
-    #s.dependency 'CocoaMQTT'
-    #s.dependency 'SSZipArchive'
-    #s.dependency 'AWSMobileClient'
-    #s.dependency 'AWSS3'
+    s.dependency 'Alamofire'
+    s.dependency 'Alamofire-Synchronous', '~> 4.0'
+    s.dependency 'CocoaMQTT'
+    s.dependency 'SSZipArchive'
+    s.dependency 'AWSMobileClient'
+    s.dependency 'AWSS3'
 
-    s.swift_version = '5.0'
+    #s.swift_version = '5.0'
     
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
