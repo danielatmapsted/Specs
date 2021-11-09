@@ -15,6 +15,9 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = 'MapstedCore.framework'
 
     s.libraries = "z", "c++"
+    
+    s.dependency 'Alamofire'
+    s.dependency 'Alamofire-Syhchronous'
     s.dependency 'CocoaMQTT'
     s.dependency 'SSZipArchive'
     s.dependency 'AWSMobileClient'
