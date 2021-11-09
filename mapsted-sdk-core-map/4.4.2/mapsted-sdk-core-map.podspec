@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :git => "file:///Users/Daniel/Projects/Pods/mapsted-sdk-map-core/", :tag => "4.4.2" }
+    s.source            = { :git => "file:///Users/Daniel/Projects/Pods/mapsted-sdk-map-core/", :tag => s.version }
 
     s.ios.deployment_target = '12.3'
-    s.ios.vendored_frameworks = "4.4.2/MapSDK.framework"
+    s.ios.vendored_frameworks = "#{s.version}/MapSDK.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
 
