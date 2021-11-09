@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :git => "file:///Users/Daniel/Projects/Pods/mapsted-sdk-map/", :tag => s.version }
 
-    s.source_files  =  "#{s.version}/MapstedMap.framework/Headers/*.{h,m}", "#{s.version}/coremap.framework/Headers/*.{h,m}"
+    s.source_files  =  "MapstedMap.framework/Headers/*.{h,m}", "coremap.framework/Headers/*.{h,m}"
 
     s.ios.deployment_target = '12.3'
-    s.ios.vendored_frameworks = "#{s.version}/MapstedMap.framework","#{s.version}/coremap.framework"
+    s.ios.vendored_frameworks = "MapstedMap.framework","coremap.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
 
