@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
 
     s.libraries = "z", "c++"
     
-    s.dependency 'Alamofire'
-    s.dependency 'Alamofire-Synchronous', '~> 4.0'
-    s.dependency 'CocoaMQTT'
-    s.dependency 'SSZipArchive'
-    s.dependency 'AWSMobileClient'
-    s.dependency 'AWSS3'
+    #s.dependency 'Alamofire'
+    #s.dependency 'Alamofire-Synchronous', '~> 4.0'
+    #s.dependency 'CocoaMQTT'
+    #s.dependency 'SSZipArchive'
+    #s.dependency 'AWSMobileClient'
+    #s.dependency 'AWSS3'
 
     s.swift_version = '5.0'
     
