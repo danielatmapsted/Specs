@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
     
+    s.dependency 'Alamofire'
+    s.dependency 'Alamofire-Synchronous', '4.0.0'
     s.dependency 'CocoaLumberjack/Swift'
     s.dependency 'ColorThiefSwift'
     s.dependency 'GoogleSignIn'
