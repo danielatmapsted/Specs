@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-map'
     s.dependency 'mapsted-sdk-map-ui'
     
+    s.dependency 'mapsted-sdk-components'
+    
     s.dependency 'mapsted-sdk-triggers-core'
     s.dependency 'mapsted-sdk-loc-marketing'
     s.dependency 'mapsted-sdk-alerts'
