@@ -16,7 +16,11 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = "AppTemplateCore.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
-
+    
+    s.dependency 'FacebookLogin'
+    s.dependency 'GoogleSignIn'
+    s.dependency 'FlagPhoneNumber'
+    
     s.dependency 'mapsted-sdk-core'
     s.dependency 'mapsted-sdk-map'
     s.dependency 'mapsted-sdk-map-ui'
