@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
     s.dependency 'SSZipArchive'
     s.dependency 'AWSMobileClient'
     s.dependency 'AWSS3'
+    s.dependency 'CocoaLumberjack/Swift'
 
     #s.swift_version = '5.0'
     
