@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
     
-    s.dependency 'FacebookLogin'
+    s.dependency 'ColorThiefSwift'
     s.dependency 'GoogleSignIn'
+    s.dependency 'FacebookLogin'
     s.dependency 'FlagPhoneNumber'
     
     s.dependency 'mapsted-sdk-core'
