@@ -16,11 +16,6 @@ Pod::Spec.new do |s|
 
     s.libraries = "z", "c++"
     
-    s.dependency 'CocoaMQTT'
-    s.dependency 'SSZipArchive'
-    s.dependency 'AWSMobileClient'
-    s.dependency 'AWSS3'
-
     #s.swift_version = '5.0'
     
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
