@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
 
-    s.dependency 'mapsted-sdk-core'
+    s.dependency 'mapsted-sdk-core', '4.5.8.2'
     s.dependency 'mapsted-sdk-core-map', '4.4.3'
 
     s.swift_version = '5.0'
