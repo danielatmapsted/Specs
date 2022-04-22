@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :git => "file:///~/Projects/Pods/mapsted-sdk-map/" }
+    s.source            = { :git => "file:///Users/Daniel/Projects/Pods/mapsted-sdk-map/" }
 
     s.source_files  =  "MapstedMap.framework/Headers/*.{h,m}", "coremap.framework/Headers/*.{h,m}"
 
